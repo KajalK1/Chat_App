@@ -48,14 +48,14 @@
 
 ### 🛠️ Steps
 
-# Clone the repository
+### - Clone the repository
 git clone https://github.com/KajalK1/chat-connect.git
 
-# Navigate to the project directory
+### - Navigate to the project directory
 cd chat-connect
 
-# Install frontend dependencies
+### - Install frontend dependencies
 npm install
 
-# Start development server
+### - Start development server
 npm run dev
