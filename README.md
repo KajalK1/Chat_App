@@ -1,12 +1,61 @@
-# React + Vite
+# 💬 ChatConnect
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**ChatConnect** is a real-time chat application built using **React**, **Firebase**, and **Socket.IO**. It provides seamless communication with live chat features, user authentication, and modern UI — perfect for learning and showcasing full-stack development skills.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔥 Features
 
-## Expanding the ESLint configuration
+1. **User Authentication**
+   - Secure sign-up and login using Firebase Authentication.
+   - Supports Email/Password authentication.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. **Real-Time Messaging**
+   - Instant message delivery with Socket.IO.
+   - Typing indicators and real-time message updates.
+
+3. **One-to-One & Group Chat**
+   - Chat with individual users or in group chat rooms.
+   - Displays active online users.
+
+4. **Chat History Storage**
+   - Stores messages and user data in Firebase Firestore.
+   - Loads chat history on page refresh.
+
+5. **Responsive Design**
+   - Works on mobile, tablet, and desktop devices.
+   - Clean UI using React components.
+
+---
+
+## 🧰 Tech Stack
+
+- **Frontend**: React.js, Vite
+- **Backend**: Firebase, Node.js + Socket.IO (for real-time)
+- **Database**: Firebase Firestore
+- **Authentication**: Firebase Auth
+- **Styling**: Tailwind CSS (optional)
+- **APIs & Tools**: Socket.IO, Firebase SDK
+
+---
+
+## ⚙️ Installation & Setup
+
+### 📦 Prerequisites
+- Node.js (v16 or higher)
+- Firebase project (with Auth & Firestore enabled)
+- Running Socket.IO server (backend)
+
+### 🛠️ Steps
+
+# Clone the repository
+git clone https://github.com/KajalK1/chat-connect.git
+
+# Navigate to the project directory
+cd chat-connect
+
+# Install frontend dependencies
+npm install
+
+# Start development server
+npm run dev
